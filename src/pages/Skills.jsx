@@ -3,30 +3,25 @@ import { useTheme } from "../context/Theme/ThemeContext";
 
 const skillGroups = [
   {
-    title: "Languages",
-    items: ["JavaScript", "C++", "Python"],
+    title: "Programming Languages",
+    items: ["Java", "JavaScript (ES6)", "Python"],
   },
   {
-    title: "Frontend",
-    items: [
-      "React.js",
-      "Redux Toolkit",
-      "Tailwind CSS",
-      "Bootstrap",
-      "Material UI",
-      "React Router",
-      "HTML5",
-      "CSS3",
-      "Responsive Design",
-    ],
+    title: "Web Technologies",
+    items: ["HTML5", "CSS3", "JavaScript (ES6)", "React.js"],
   },
+
   {
     title: "Backend",
-    items: ["Node.js", "Express.js", "PostgreSQL", "MongoDB"],
+    items: ["JDBC", "Servlets", "JSP", "Hibernate", "Spring", "Spring Boot", "REST API"],
   },
   {
-    title: "Tools & Workflow",
-    items: ["Git", "GitHub", "Postman", "Docker", "Chrome DevTools", "NPM"],
+    title: "Developer Tools",
+    items: ["Git", "GitHub", "VS Code", "Eclipse IDE"],
+  },
+    {
+    title: "Database",
+    items: ["SQL"],
   },
 ];
 

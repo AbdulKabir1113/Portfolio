@@ -5,7 +5,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 const navLinks = [
   { label: "Home", id: "home" },
   { label: "Skills", id: "skills" },
-  { label: "Work", id: "work" },
+  { label: "Projects", id: "projects" },
   { label: "About", id: "about" },
   { label: "Connect", id: "connect" },
 ];
@@ -13,17 +13,17 @@ const navLinks = [
 const socials = [
   {
     icon: <Github className="w-4 h-4" />,
-    href: "https://github.com/Abdulrab8329",
+    href: "https://github.com/AbdulKabir1113",
     label: "GitHub",
   },
   {
     icon: <Linkedin className="w-4 h-4" />,
-    href: "https://www.linkedin.com/in/mohammad-abdul-rab",
+    href: "https://www.linkedin.com/in/mominmohammedrehan/",
     label: "LinkedIn",
   },
   {
     icon: <Mail className="w-4 h-4" />,
-    href: "mailto:abdulrabansari53@gmail.com",
+    href: "mailto:abdulkabir0717@gmail.com",
     label: "Email",
   },
 ];
@@ -53,7 +53,7 @@ const Footer = () => {
               M
             </div>
             <span className="font-bold text-lg bg-gradient-to-r from-teal-600 to-teal-700 dark:from-violet-400 dark:to-purple-400 bg-clip-text text-transparent">
-              Mohammed Abdul Rab
+              Momin Mohammed Rehan
             </span>
           </div>
 
@@ -98,7 +98,7 @@ const Footer = () => {
         {/* Bottom copyright */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-2 text-xs">
           <p className={isDark ? "text-gray-600" : "text-gray-400"}>
-            © 2026 Mohammed Abdul Rab. All rights reserved.
+            © 2026 Momin Mohammed Rehan. All rights reserved.
           </p>
           <p className={isDark ? "text-gray-700" : "text-gray-300"}>
             Built with React.js · Tailwind CSS

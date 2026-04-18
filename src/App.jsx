@@ -23,9 +23,6 @@ const App = () => {
           <Home />
         </section>
 
-        <section id="stats" style={{ scrollMarginTop: "100px" }}>
-          <Stats />
-        </section>
 
         <section id="skills" style={{ scrollMarginTop: "100px" }}>
           <Skills />

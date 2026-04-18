@@ -14,8 +14,7 @@ const About = () => {
 
   const traits = [
     "Problem Solver",
-    "Clean Code Advocate",
-    "Team Player",
+    "Collaborative Mindset",
     "Fast Learner",
     "User-Focused",
     "Detail-Oriented",
@@ -23,30 +22,46 @@ const About = () => {
 
   const highlights = [
     {
-      title: "React.js Specialist",
-      desc: "8+ months building production React apps with hooks, Redux, and REST APIs across live platforms.",
+      title: "Full Stack Fundamentals",
+      desc: "Strong foundations in Java, Spring Boot, Hibernate, REST APIs, and frontend React development.",
     },
     {
-      title: "Ships to Production",
-      desc: "All my projects are live — real users, real traffic, real impact.",
+      title: "Web Development",
+      desc: "Built responsive UI with HTML5, CSS3, JavaScript, and modern React patterns for seamless user experiences.",
     },
     {
-      title: "Full Component Ownership",
-      desc: "I own features end-to-end — from UI design to API integration and deployment.",
+      title: "Database & Backend",
+      desc: "Experienced with SQL, JDBC, Servlets, and backend API integration for data-driven applications.",
     },
     {
-      title: "Continuous Learner",
-      desc: "Constantly expanding skills — currently deepening Node.js and system design knowledge.",
+      title: "Problem Solving & Optimization",
+      desc: "Experienced in solving 250+ coding challenges, with a strong focus on writing optimized and efficient solutions.",
     },
   ];
 
   const education = [
     {
-      degree: "Bachelor of Engineering",
+      degree: "B.Tech in Computer Science and Engineering",
       field: "Computer Science and Engineering",
-      institution: "Khaja Banda Nawaz University",
-      location: "Kalaburagi, Karnataka",
+      institution: "M.G.M's College of Engineering",
+      location: "Nanded, Maharashtra",
       year: "2021 – 2025",
+      score: "70.00%",
+    },
+    {
+      degree: "Higher Secondary Education",
+      field: "Science",
+      institution: "Madina Tul-Uloom Junior College",
+      location: "Nanded, Maharashtra",
+      year: "2021",
+      score: "85.00%",
+    },
+    {
+      degree: "Secondary School Education",
+      institution: "Madina Tul-Uloom High School",
+      location: "Nanded, Maharashtra",
+      year: "2019",
+      score: "71.20%",
     },
   ];
 
@@ -84,29 +99,23 @@ const About = () => {
               <h2 className={`text-xl font-bold mb-4 ${headingColor}`}>
                 Hi, I'm{" "}
                 <span className={`bg-gradient-to-r ${accentGradient} bg-clip-text text-transparent`}>
-                  Mohammed Abdul Rab
+                  Momin Mohammed Rehan
                 </span>
               </h2>
               <div className={`space-y-3 text-sm leading-relaxed ${textPrimary}`}>
                 <p>
                   I'm a{" "}
                   <span className={`font-semibold ${isDark ? "text-white" : "text-gray-900"}`}>
-                    Frontend Developer
+                    Computer Science graduate
                   </span>{" "}
-                  specializing in React.js, currently working full-time at{" "}
-                  <span className={`font-semibold ${isDark ? "text-violet-300" : "text-teal-700"}`}>
-                    Krisantec Pvt. Ltd.
-                  </span>
+                  with strong skills in Java, SQL, and Full Stack Development,
+                  including Spring, Hibernate, Servlets, JDBC, React, HTML, CSS,
+                  and JavaScript.
                 </p>
                 <p>
-                  I build scalable, responsive, and production-ready web
-                  applications — with clean UI, reusable components, Redux state
-                  management, and REST API integration. I take ownership from the
-                  first commit to deployment.
-                </p>
-                <p>
-                  I enjoy solving real-world problems and making interfaces that
-                  feel great to use.
+                  Experienced in building projects and solving 250+ coding problems.
+                  I seek an entry-level Full Stack Developer role to develop
+                  scalable applications and contribute to real-world solutions.
                 </p>
               </div>
             </div>
@@ -151,6 +160,17 @@ const About = () => {
           </div>
         </div>
 
+        {/* Achievements */}
+        <div className="mb-6">
+          <h2 className={`text-lg font-bold mb-4 ${headingColor}`}>Achievements</h2>
+          <div className={`rounded-2xl border ${borderColor} ${cardBg} p-6 shadow-sm backdrop-blur-sm`}> 
+            <ul className={`list-disc pl-5 space-y-3 text-sm ${textPrimary}`}>
+              <li>Achieved a state rank of 15,265 with 89.93 percentile in MHT-CET.</li>
+              <li>Solved 250+ coding problems across multiple platforms and participated in competitive coding contests.</li>
+            </ul>
+          </div>
+        </div>
+
         {/* Education */}
         <div>
           <h2 className={`text-lg font-bold mb-4 ${headingColor}`}>Education</h2>
@@ -173,6 +193,11 @@ const About = () => {
                 <p className={`text-sm ${textPrimary}`}>
                   {item.institution} · {item.location}
                 </p>
+                {item.score && (
+                  <p className={`text-sm mt-1 ${isDark ? "text-violet-400" : "text-teal-700"}`}>
+                    Score: {item.score}
+                  </p>
+                )}
               </div>
             </div>
           ))}

@@ -40,23 +40,19 @@ const Home = () => {
                     : "from-teal-600 to-teal-500"
                   }`}
               >
-                Mohammed Abdul Rab
+                Momin Mohammed Rehan
               </span>
             </h1>
 
             <p className={`text-lg sm:text-xl md:text-2xl font-semibold ${textSecondary}`}>
-              Frontend Developer
+              Aspiring Java Full Stack Developer
             </p>
 
             <p className={`text-base sm:text-lg leading-relaxed ${textPrimary}`}>
-              Specializing in{" "}
-              <span className={`font-semibold ${isDark ? "text-white" : "text-gray-800"}`}>
-                React.js
-              </span>
-              . I build scalable, responsive, and production-ready web
-              applications — including full admin dashboards for live platforms.
-              Experienced with clean UI, reusable components, Redux state
-              management, and REST API integration.
+              Computer Science graduate with strong skills in Java, SQL, and
+              Full Stack Development, including Spring, Hibernate, Servlets,
+              JDBC, React, HTML, CSS, and JavaScript.
+              Experienced in building scalable applications and solving 250+ coding problems.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -67,7 +63,7 @@ const Home = () => {
                     : "bg-teal-600 hover:bg-teal-500 text-white hover:shadow-teal-400/30"
                   }`}
               >
-                View My Work
+                View My Projects
               </button>
 
               <button
@@ -95,7 +91,7 @@ const Home = () => {
             >
               <img
                 src="./pro.jpg"
-                alt="Mohammed Abdul Rab"
+                alt="Momin Mohammed Rehan"
                 className="w-full h-full object-cover"
               />
               <div
@@ -122,7 +118,7 @@ const Home = () => {
                     : "bg-teal-50 border-teal-200 text-teal-700"
                   }`}
               >
-                8+ Months Experience
+                Aspiring Developer
               </span>
             </div>
           </div>

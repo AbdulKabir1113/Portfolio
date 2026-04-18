@@ -7,7 +7,7 @@ import { BsSun, BsMoon } from "react-icons/bs";
 const navLinks = [
   { name: "Home", id: "home" },
   { name: "Skills", id: "skills" },
-  { name: "Work", id: "work" },
+  { name: "Projects", id: "projects" },
   { name: "About", id: "about" },
   { name: "Connect", id: "connect" },
 ];
@@ -88,7 +88,7 @@ export default function Navbar() {
             className="flex items-center gap-2 group"
           >
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-teal-500 to-teal-600 dark:from-violet-500 dark:to-purple-600 flex items-center justify-center text-white font-bold group-hover:shadow-lg group-hover:shadow-teal-500/50 dark:group-hover:shadow-violet-500/50 transition-all duration-300">
-              M
+              REHAN
             </div>
             <span
               className={`text-base sm:text-lg font-bold bg-clip-text bg-gradient-to-r from-teal-600 to-teal-700 dark:from-violet-400 dark:to-purple-400 text-transparent group-hover:opacity-80 transition-opacity`}

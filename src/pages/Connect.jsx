@@ -21,14 +21,14 @@ const Connect = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "abdulrabansari53@gmail.com",
-      href: "mailto:abdulrabansari53@gmail.com",
+      value: "abdulkabir0717@gmail.com",
+      href: "mailto:abdulkabir0717@gmail.com",
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "+91-8329547868",
-      href: "tel:+918329547868",
+      value: "+91-9075258645",
+      href: "tel:+919075258645",
     },
   ];
 
@@ -36,15 +36,15 @@ const Connect = () => {
     {
       icon: <Github className="w-5 h-5" />,
       label: "GitHub",
-      handle: "@Abdulrab8329",
-      link: "https://github.com/Abdulrab8329",
+      handle: "@abdulkabir0717",
+      link: "https://github.com/abdulkabir0717",
       color: isDark ? "text-violet-300" : "text-gray-700",
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      handle: "mohammad-abdul-rab",
-      link: "https://www.linkedin.com/in/mohammad-abdul-rab",
+      handle: "Momin Mohammed Rehan",
+      link: "https://www.linkedin.com/in/momin-mohammed-rehan",
       color: isDark ? "text-violet-400" : "text-teal-600",
     },
   ];
@@ -75,7 +75,8 @@ const Connect = () => {
           <div className={`w-12 h-0.5 bg-gradient-to-r ${accentGradient} mx-auto rounded-full mb-3`} />
           <p className={`text-base max-w-md mx-auto ${textPrimary}`}>
             Open to freelance projects, collaborations, and full-time
-            opportunities. Let's build something great together.
+            opportunities. Available on LinkedIn and GitHub.
+            Let's build something great together.
           </p>
         </div>
 
@@ -107,16 +108,16 @@ const Connect = () => {
               >
                 <img
                   src="./pro.jpg"
-                  alt="Mohammed Abdul Rab"
+                  alt="Momin Mohammed Rehan"
                   className="w-full h-full object-cover"
                 />
               </div>
 
               <h2 className={`text-2xl font-bold mb-1 ${headingColor}`}>
-                Mohammed Abdul Rab
+                Momin Mohammed Rehan
               </h2>
               <p className={`text-sm font-semibold mb-3 ${accentText}`}>
-                Frontend Developer
+                Aspiring Full Stack Developer
               </p>
 
               {/* Meta chips */}
@@ -136,7 +137,7 @@ const Connect = () => {
                     }`}
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                  Available for freelance
+                  Open to opportunities
                 </span>
                 <span
                   className={`text-xs px-3 py-1.5 rounded-full font-medium border ${isDark
@@ -144,7 +145,7 @@ const Connect = () => {
                       : "bg-teal-50 border-teal-200 text-teal-700"
                     }`}
                 >
-                  Krisantec Pvt. Ltd.
+                  Full Stack Development
                 </span>
               </div>
             </div>

@@ -33,9 +33,9 @@ const StatusBadge = () => {
 
       {/* Company + Role */}
       <span className={`text-xs font-medium ${isDark ? "text-violet-200" : "text-gray-600"}`}>
-        Frontend Dev ·{" "}
+        Java Full Stack Developer ·{" "}
         <span className={`font-semibold ${isDark ? "text-violet-300" : "text-teal-700"}`}>
-          Krisantec Pvt. Ltd.
+          Jspider Hydrabad
         </span>
       </span>
 
