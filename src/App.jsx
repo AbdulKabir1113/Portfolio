@@ -28,7 +28,7 @@ const App = () => {
           <Skills />
         </section>
 
-        <section id="work" style={{ scrollMarginTop: "100px" }}>
+        <section id="projects" style={{ scrollMarginTop: "100px" }}>
           <Work />
         </section>
 
