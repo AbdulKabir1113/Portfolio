@@ -150,7 +150,10 @@ const Work = () => {
   };
 
   return (
-    <div className="bg-page-light dark:bg-page-dark py-16 transition-colors duration-300 relative overflow-hidden">
+    <div
+  id="projects"
+  className="bg-page-light dark:bg-page-dark py-16 transition-colors duration-300 relative overflow-hidden"
+>
       {/* Background glow */}
       <div
         className={`absolute inset-0 pointer-events-none ${
