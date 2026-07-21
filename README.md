@@ -15,4 +15,4 @@ Personal developer portfolio built with React.
 - Git & GitHub
 
 ## Live Demo
-(Will be updated after deployment)
+https://portfolio-eta-one-60.vercel.app/
