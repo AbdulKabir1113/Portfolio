@@ -8,20 +8,20 @@ const skillGroups = [
   },
   {
     title: "Web Technologies",
-    items: ["HTML5", "CSS3", "JavaScript (ES6)", "React.js"],
+    items: ["HTML5", "CSS3", "JavaScript (ES6)", "React.js", "Bootstrap", "Tailwind CSS"],
   },
 
   {
     title: "Backend",
-    items: ["JDBC", "Servlets", "JSP", "Hibernate", "Spring", "Spring Boot", "REST API"],
+    items: ["Spring", "Spring Boot", "REST API","Hibernate","JDBC", "Servlets", "JSP", "Microservices"],
   },
   {
     title: "Developer Tools",
-    items: ["Git", "GitHub", "VS Code", "Eclipse IDE"],
+    items: ["Maven", "Apache Tomcat", "Postman", "Git", "GitHub", "VS Code", "Eclipse IDE"],
   },
     {
     title: "Database",
-    items: ["SQL"],
+    items: ["MySQL", "SQL"],
   },
 ];
 

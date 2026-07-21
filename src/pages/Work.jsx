@@ -22,6 +22,22 @@ const Work = () => {
   const timelineDot = isDark ? "bg-purple-300" : "bg-teal-500";
 
   const projects = [
+  {
+  title: "TurfHub",
+  subtitle: "Full-Stack Turf Booking & Management System",
+  github: "https://github.com/AbdulKabir1113/TurfBookingManagmentSystem",
+  desc: "Developed a full-stack turf booking platform with role-based authentication, slot-based booking, owner dashboard, CRUD operations, and a responsive React.js interface powered by Java Servlets, JDBC, and MySQL.",
+  tech: ["React.js","Java","Java Servlets","JDBC","MySQL","Tailwind CSS","JavaScript (ES6)"],
+  type: "github",
+},
+{
+  title: "Hotel Reservation System",
+  subtitle: "Console-Based Hotel Booking Application",
+  github: "https://github.com/AbdulKabir1113/Hotel-Management-System",
+  desc: "Developed a console-based hotel reservation system using Core Java, JDBC, and MySQL with CRUD operations, secure database connectivity, and a DAO-based architecture for efficient reservation management.",
+  tech: ["Core Java","JDBC","MySQL","SQL","OOP's"],
+  type: "github",
+},
     {
   title: "Food Recipe Application",
   subtitle: "Responsive Recipe Finder",

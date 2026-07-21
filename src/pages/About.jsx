@@ -109,11 +109,11 @@ const About = () => {
                     Computer Science graduate
                   </span>{" "}
                   with strong skills in Java, SQL, and Full Stack Development,
-                  including Spring, Hibernate, Servlets, JDBC, React, HTML, CSS,
+                  including Microservices, Spring, Spring Boot, Hibernate, Servlets, JDBC, React, HTML, CSS,
                   and JavaScript.
                 </p>
                 <p>
-                  Experienced in building projects and solving 250+ coding problems.
+                  Experienced in building projects and solving 150+ coding problems.
                   I seek an entry-level Full Stack Developer role to develop
                   scalable applications and contribute to real-world solutions.
                 </p>
@@ -166,7 +166,7 @@ const About = () => {
           <div className={`rounded-2xl border ${borderColor} ${cardBg} p-6 shadow-sm backdrop-blur-sm`}> 
             <ul className={`list-disc pl-5 space-y-3 text-sm ${textPrimary}`}>
               <li>Achieved a state rank of 15,265 with 89.93 percentile in MHT-CET.</li>
-              <li>Solved 250+ coding problems across multiple platforms and participated in competitive coding contests.</li>
+              <li>Solved 150+ coding problems across multiple platforms and participated in competitive coding contests.</li>
             </ul>
           </div>
         </div>
