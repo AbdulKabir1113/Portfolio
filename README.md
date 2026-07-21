@@ -250,7 +250,7 @@ This portfolio is deployed on **Vercel**.
 
 Live Website:
 
-**https://portfolio-eta-one-60.vercel.app/** :contentReference[oaicite:0]{index=0}
+**https://portfolio-eta-one-60.vercel.app/** 
 
 ---
 
